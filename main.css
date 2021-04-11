@@ -1,0 +1,57 @@
+html{
+    font-family: 'Lora', serif;
+}
+.heading{
+    margin:2em auto;
+    border-bottom: 2px black solid;
+    /* color: red; */
+}
+
+#team li{
+    text-decoration: none;
+    list-style-type: circle;
+}
+.sectionheader{
+    font-size: 1.5em;
+    text-decoration: underline;
+    margin-top: 1.3em;
+    margin-bottom: 1em;
+}
+
+.main_section{
+    border-bottom: 1px solid black;
+    width: 90%;
+    margin: auto;
+}
+
+.main_section:last-child{
+    border: none;
+}
+
+.footer{
+    margin-top: 2em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 3em;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    text-decoration: none;
+}
+.footer2 a{
+    text-decoration: none;
+    color: blanchedalmond;
+    transition: font-size 1s;
+}
+.footer2 a:hover{
+    text-decoration: underline;
+    font-size: 1.3em;
+    /* color: red; */
+    transition:font-size 1s;
+}
+.footer2 a:visited{
+    color: blanchedalmond;
+}
+
+#contactfooter{
+    font-size: 2em;
+}
