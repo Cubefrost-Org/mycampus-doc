@@ -54,13 +54,13 @@ html{
 .footer2 a{
     text-decoration: none;
     color: blanchedalmond;
-    transition: font-size 1s;
+    transition: color 0.6s;
 }
 .footer2 a:hover{
     text-decoration: underline;
-    font-size: 1.3em;
+    color: rgb(226, 117, 117);
     /* color: red; */
-    transition:font-size 1s;
+    transition:color 0.6s;
 }
 .footer2 a:visited{
     color: blanchedalmond;
